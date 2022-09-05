@@ -1,0 +1,15 @@
+function sum(a,b){
+    return a+b
+}
+module.exports=sum
+
+const sum =require('./sum')
+test('properly adds two numbers',() =>{
+
+expect(sum(1,2)).toBe(3)
+
+}
+
+
+
+)
